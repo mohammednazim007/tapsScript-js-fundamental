@@ -1,6 +1,7 @@
-console.log(typeof null); // object
-console.log(typeof undefined); // undefined
-console.log(typeof {}); // object
-console.log(typeof []); // object
-console.log(typeof function () {}); // function
-
+for (let initial = 0; initial < 5; initial++) {
+  let star = "";
+  for (let i = 0; i < 5; i++) {
+    star += "*";
+  }
+  console.log(star);
+}
