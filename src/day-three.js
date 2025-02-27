@@ -14,6 +14,7 @@ const person = {
     console.log("Hello, my name is " + this.name);
   },
 };
-Object.freeze(person);
-person.name = "Jane";
+// Object.freeze(person);
+Object.seal(person);
+delete person.name 
 console.log(person.name); // John
